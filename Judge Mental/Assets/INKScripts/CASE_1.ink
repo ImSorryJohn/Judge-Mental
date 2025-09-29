@@ -3,23 +3,22 @@ Case 1:
 Name: Andrew Colmanero
 Gender: Male
 Age: 30
-Charge: Murder charge with a spoon at BigMonalds over the ice cream machine not working.
-
-Mr. Colmanero entered a BigMondalds yesterday in the hopes of getting an ice cream, but to his dismay, it was broken. Enraged by this, he picked one of the free plastic spoons and violently killed the staff. Before his sentence, he was interviewed by a local journalist. This is what he had to say: "I will never trust ever again! Give me that ice cream!" After this he attacked the poor man and stole his hard earned ice cream. The worst tragedy in the past month.
+Charges: seven counts of 1st degree murder with a spoon at BigMonalds over the ice cream machine not working.
+Report: Mr. Colmanero entered a BigMondalds yesterday in the hopes of getting an ice cream, but to his dismay, it was broken. Enraged by this, he picked one of the free plastic spoons and violently killed the staff. Before his sentence, he was interviewed by a local journalist. This is what he had to say: "I will never trust ever again! Give me that ice cream!" After this he attacked the poor man and stole his hard earned ice cream. The worst tragedy in the past month.
 
 *[Generic dialogue]
    -> At_the_Generic_dialogue
  
  ===At_the_Generic_dialogue===
 
-All rise for judge (player chosen name)!
-Court is now in session! Andrew Colmanero, you are charged with murder and assault of multiple people using an ice cream spoon. How do you plead?
+Bailiff: All rise for Judge (player chosen name)!
+Judge: Court is now in session! Andrew Colmanero, you are charged with murder and assault of multiple people using an ice cream spoon. How do you plead?
 
-Not guilty!
+Andrew: Not guilty!
 
-The evidence is quite strong.
+Judge: The evidence is quite strong.
 
-I am not guilty your honour! I promise! It's all a missunderstanding! I would never attack using a spoon! It's beneath me! Let me tell you what actually happened.
+Andrew: I am not guilty your honour! I promise! It's all a missunderstanding! I would never attack using a spoon! It's beneath me! Let me tell you what actually happened.
 
 *[Review footage]
   -> At_The_Review_footage
@@ -30,13 +29,13 @@ I am not guilty your honour! I promise! It's all a missunderstanding! I would ne
   
   (You take a small DVD and put it into a player. A TV glitches to life and security footage from the restaurant plays. You watch as you see the friendly staff welcoming Andrew. Suddenly, he gets enraged, grabs a fork and stabs everyone in the eye.)
 
-You were saying, Colmanero?
+Judge: You were saying, Colmanero?
 
-I can explain!
+Andrew: I can explain!
 
-Really? Then explain to me how that was different from what we were told!
+Judge: Really? Then explain to me how that was different from what we were told!
 
-I used a fork, not a spoon! Spoons are just inferior! Yuck! Have you ever tried killing someone with a spoon? Very hard! Now a fork? That's where it's at!
+Andrew: I used a fork, not a spoon! Spoons are just inferior! Yuck! Have you ever tried killing someone with a spoon? Very hard! Now a fork? That's where it's at!
 
 *[Judge]
 ->Judge
@@ -45,19 +44,19 @@ I used a fork, not a spoon! Spoons are just inferior! Yuck! Have you ever tried 
 
 ===At_The_Listen===
 
-It was terrible your honour! Absolutely terrible!
+Andrew: It was terrible your honour! Absolutely terrible!
 
-Yeah, yeah, I'm sure it was, now get on with it!
+Judge: Yeah, yeah, I'm sure it was, now get on with it!
 
-The day started normal! I woke up as the beautiful sunshine entered my room, watered my plants and petted my dog. After this, I realised that we were out of food! So of course, since I am such a carrying and good person, I grabed my last few funds and went to the restaurant to buy an ice cream for my dog!
+Andrew: The day started normal! I woke up as the beautiful sunshine entered my room, watered my plants and petted my dog. After this, I realised that we were out of food! So of course, since I am such a carrying and good person, I grabed my last few funds and went to the restaurant to buy an ice cream for my dog!
 
-For... Your dog?
+Judge: For... Your dog?
 
-Yes, your honour! You see, my dog loves ice cream! And he was starving!
+Andrew: Yes, your honour! You see, my dog loves ice cream! And he was starving!
 
-What about you?
+Judge: What about you?
 
-I was starving as well, but my dog was more important. Because love and friendship are what trully matters! So I went to the BigMonalds. Everything seemed normal at first, but then, when I ordered, I saw as the employees eyes lit up with a wicked sparkle! ANd then they attacked me! The ice cream machine was broken for months, and it requires a human sacrifice to work! And all the workers were like savage animals left to starve! They picked me up after and were about to put me on the grill when I grabbed a fork and was able to fight back! I managed to escape, but they framed me for murder. It was self defence your hounour!
+Andrew:  I was starving as well, but my dog was more important. Because love and friendship are what trully matters! So I went to the BigMonalds. Everything seemed normal at first, but then, when I ordered, I saw as the employees eyes lit up with a wicked sparkle! ANd then they attacked me! The ice cream machine was broken for months, and it requires a human sacrifice to work! And all the workers were like savage animals left to starve! They picked me up after and were about to put me on the grill when I grabbed a fork and was able to fight back! I managed to escape, but they framed me for murder. It was self defence your hounour!
 
 *[Review footage 1]
   -> At_The_Review_footage_1
@@ -70,7 +69,7 @@ I was starving as well, but my dog was more important. Because love and friendsh
 
 (You nod, taking into consideration what Andrew told you. You wonder if what he told you is true. But then you remember! You have footage! You take a DVD and then put it into a player. A small tv glitches to life and shows the security footage from the restaurant. Panicked, Andrew throws a fork at the tv, making it explode.)
 
-Watch out! The footage is cursed by the satanic ice cream machine cult! I'm sorry your honour, but you can't watch it!
+Andrew Colmanero: Watch out! The footage is cursed by the satanic ice cream machine cult! I'm sorry your honour, but you can't watch it!
 
 **[Judge]
 ->Judge
@@ -141,9 +140,9 @@ Andrew: Since like the dawn of time! Ask a vet, they'd agree!
 
 ===Wait_You_used_a_fork_not_a_spoon_Why===
 
-Forks are just better!
+Andrew: Forks are just better!
 
-Makes sense.
+Judge: Makes sense.
 
 *[Ask questions]
 ->Ask_questions
@@ -199,7 +198,7 @@ Andrew: Oh, I think we'll get allong perfectly!
 
 ===Flirt_More===
 
-udge: I mean, look at those eyes.
+Judge: I mean, look at those eyes.
 
 Andrew blushes before smugly moving his hand through his hair.
 
@@ -269,25 +268,25 @@ Andrew Colmanero, I sentence you to...
 
 ===Death===
 
-Death by iron maiden! The most ethical choice, obviously.
+Judge: Death by iron maiden! The most ethical choice, obviously.
 
-WHAT?!
+Andrew: WHAT?!
 
-You heard me! Have fun! And please leave the court a review online! Have a good last day!
+Judge: You heard me! Have fun! And please leave the court a review online! Have a good last day!
 
 *[End case]
 ->End_case
 
 ===Community_service===
 
-Community service! You are to work as a Baco Tell cleaner for the rest of your life without any payment! So basically the usual salary! Byeeeeee!
+Judge: Community service! You are to work as a Baco Tell cleaner for the rest of your life without any payment! So basically the usual salary! Byeeeeee!
 
 *[End case]
 ->End_case
 
 ===Innocent===
 
-Sorry, I mean you are innocent! You can leave! Court is finished! Lunch time!
+Judge: Sorry, I mean you are innocent! You can leave! Court is finished! Lunch time!
 
 *[End case]
 ->End_case
