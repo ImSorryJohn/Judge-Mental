@@ -123,90 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &235479935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 235479937}
-  - component: {fileID: 235479936}
-  m_Layer: 0
-  m_Name: court room
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &235479936
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235479935}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d3158d9c2eb25934080a4819e1a9fd51, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 70.166626, y: 49.61}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &235479937
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235479935}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0603, y: -0.0841, z: 0}
-  m_LocalScale: {x: 0.36028188, y: 0.29416475, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &348654406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,6 +284,90 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+--- !u!1 &385125682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 385125684}
+  - component: {fileID: 385125683}
+  m_Layer: 0
+  m_Name: better court room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &385125683
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385125682}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b98b8c07d29fe2b46b6fc918f1b75e47, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 70.166626, y: 49.61}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &385125684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385125682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0534, y: 0.1782, z: 0}
+  m_LocalScale: {x: 0.3612759, y: 0.30673394, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &412551463
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +712,14 @@ GameObject:
   - component: {fileID: 857196909}
   - component: {fileID: 857196908}
   - component: {fileID: 857196917}
+  - component: {fileID: 857196918}
+  - component: {fileID: 857196921}
+  - component: {fileID: 857196920}
+  - component: {fileID: 857196919}
+  - component: {fileID: 857196925}
+  - component: {fileID: 857196924}
+  - component: {fileID: 857196923}
+  - component: {fileID: 857196922}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -3031,7 +3039,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 158
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0995182f18f2754408fba33a3d8593d9, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &857196909
 MonoBehaviour:
@@ -3050,7 +3058,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 156
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: d6ecb2810937e5a4882a6ba415f81c03, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &857196910
 MonoBehaviour:
@@ -3069,7 +3077,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 155
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0995182f18f2754408fba33a3d8593d9, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &857196911
 MonoBehaviour:
@@ -3088,7 +3096,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 154
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: d6ecb2810937e5a4882a6ba415f81c03, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &857196912
 MonoBehaviour:
@@ -3107,7 +3115,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 153
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0995182f18f2754408fba33a3d8593d9, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &857196913
 MonoBehaviour:
@@ -3164,7 +3172,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 150
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 09ed910529ba5864298e22b791ba04b8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &857196916
 MonoBehaviour:
@@ -3203,6 +3211,158 @@ MonoBehaviour:
   NodeID: 159
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &857196918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 160
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 75f5120eb8dc4e04b8e9b42eabebeda0, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &857196919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 163
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &857196920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 162
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0995182f18f2754408fba33a3d8593d9, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &857196921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 161
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 100eadbe3562d5148b0b0d8788d5b572, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &857196922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 167
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 75f5120eb8dc4e04b8e9b42eabebeda0, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &857196923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 166
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0995182f18f2754408fba33a3d8593d9, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &857196924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 165
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 75f5120eb8dc4e04b8e9b42eabebeda0, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &857196925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857196775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 164
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0995182f18f2754408fba33a3d8593d9, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &878912514
 GameObject:
@@ -3335,167 +3495,176 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 160
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":-827.3362,"yPos":-1127.158},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Listen","parentUIDs":[7],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":-1220.50049,"yPos":-569.6419},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Review
-    Footage","parentUIDs":[99,147],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":-292.505859,"yPos":-345.136475},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Ask
-    Questions ","parentUIDs":[147],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":-1358.499,"yPos":-128.803711},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"Judge\n","parentUIDs":[],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":-1658.33447,"yPos":74.53073},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Death","parentUIDs":[25],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":-1442.00024,"yPos":188.530426},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Community
-    Service","parentUIDs":[25],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":33}],"EditorInfo":{"isRoot":false,"xPos":-1194.334,"yPos":198.528534},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Innocent","parentUIDs":[25],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":-111.50412,"yPos":-85.80884},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"Those
-    people had families! Why did you do it?","parentUIDs":[36],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":45}],"EditorInfo":{"isRoot":false,"xPos":236.829651,"yPos":-2.14102173},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"Wait!
-    You used a fork, not a spoon. Why?","parentUIDs":[36],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":572.172363,"yPos":107.525452},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"Since
-    when do dogs like ice cream?","parentUIDs":[46],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":52}],"EditorInfo":{"isRoot":false,"xPos":-501.835876,"yPos":-581.478333},"ID":51,"ParamActions":[],"TMPFontGUID":null,"Text":"Romance","parentUIDs":[7,143,158],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":55}],"EditorInfo":{"isRoot":false,"xPos":-663.001465,"yPos":-248.139954},"ID":53,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    free after this?","parentUIDs":[52],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":111}],"EditorInfo":{"isRoot":false,"xPos":-379.8344,"yPos":-167.973877},"ID":54,"ParamActions":[],"TMPFontGUID":null,"Text":"What
-    are your hobbies? It''s important for the case","parentUIDs":[52],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":60}],"EditorInfo":{"isRoot":false,"xPos":-630.833252,"yPos":474.2022},"ID":59,"ParamActions":[],"TMPFontGUID":null,"Text":"Stilll.
-    Wanna hang out?","parentUIDs":[58],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":64}],"EditorInfo":{"isRoot":false,"xPos":-767.5012,"yPos":682.5317},"ID":62,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    can give you whatever you want!","parentUIDs":[60],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":101}],"EditorInfo":{"isRoot":false,"xPos":-330.1684,"yPos":808.1999},"ID":63,"ParamActions":[],"TMPFontGUID":null,"Text":"Look
-    suggestively","parentUIDs":[60],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":67}],"EditorInfo":{"isRoot":false,"xPos":-726.834961,"yPos":997.867737},"ID":66,"ParamActions":[],"TMPFontGUID":null,"Text":"Flirt
-    more","parentUIDs":[65],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":74}],"EditorInfo":{"isRoot":false,"xPos":-627.8345,"yPos":1635.86035},"ID":73,"ParamActions":[],"TMPFontGUID":null,"Text":"By
-    the way, did you do it? I like the bad boys.","parentUIDs":[71],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":77}],"EditorInfo":{"isRoot":false,"xPos":-989.502563,"yPos":1838.14526},"ID":75,"ParamActions":[],"TMPFontGUID":null,"Text":"Has
-    anyone ever told you your eyes look like moss?\r","parentUIDs":[74,103,113,129],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-376.000671,"yPos":1780.814},"ID":76,"ParamActions":[],"TMPFontGUID":null,"Text":"Surprise!
-    I tricked you!","parentUIDs":[74],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":79}],"EditorInfo":{"isRoot":false,"xPos":-386.000916,"yPos":2021.63354},"ID":78,"ParamActions":[],"TMPFontGUID":null,"Text":"Talk
-    dirty","parentUIDs":[77],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":84}],"EditorInfo":{"isRoot":false,"xPos":-392.333679,"yPos":2548.126},"ID":83,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe
-    not to jail... But what about hom arrest at my place?","parentUIDs":[82],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":94}],"EditorInfo":{"isRoot":false,"xPos":-809.3347,"yPos":3287.479},"ID":92,"ParamActions":[],"TMPFontGUID":null,"Text":"Take
-    offer","parentUIDs":[91],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":98}],"EditorInfo":{"isRoot":false,"xPos":-573.6681,"yPos":3394.13525},"ID":93,"ParamActions":[],"TMPFontGUID":null,"Text":"Come
-    to your senses","parentUIDs":[91],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-818.168945,"yPos":3902.90137},"ID":97,"ParamActions":[],"TMPFontGUID":null,"Text":"End
-    case","parentUIDs":[96],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":110}],"EditorInfo":{"isRoot":false,"xPos":-691.5012,"yPos":-1712.66772},"ID":100,"ParamActions":[],"TMPFontGUID":null,"Text":"Analyse","parentUIDs":[3],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":116}],"EditorInfo":{"isRoot":false,"xPos":-85.50778,"yPos":360.36795},"ID":115,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
-    crucial.... In determining your goodness level.","parentUIDs":[113],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":125}],"EditorInfo":{"isRoot":false,"xPos":-128.003143,"yPos":1203.01758},"ID":123,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    are not bad yourself!","parentUIDs":[122],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":129}],"EditorInfo":{"isRoot":false,"xPos":167.664886,"yPos":1195.85254},"ID":124,"ParamActions":[],"TMPFontGUID":null,"Text":"Smirk
-    and wink","parentUIDs":[122],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-1992.65576,"yPos":-342.2965},"ID":138,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
-    you''re right. Duh. (sarcastic)","parentUIDs":[24],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-1985.99072,"yPos":-488.9649},"ID":139,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    think you are hiding something.","parentUIDs":[24],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":141}],"EditorInfo":{"isRoot":false,"xPos":-1979.99023,"yPos":-614.3057},"ID":140,"ParamActions":[],"TMPFontGUID":null,"Text":"Thank
-    you!","parentUIDs":[24],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":147}],"EditorInfo":{"isRoot":false,"xPos":-853.000854,"yPos":-213.661682},"ID":146,"ParamActions":[],"TMPFontGUID":null,"Text":"Interogate","parentUIDs":[42,143],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":150}],"EditorInfo":{"isRoot":false,"xPos":587.334,"yPos":246.999573},"ID":149,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
-    are you dressed like a cowboy?","parentUIDs":[46],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":849.332764,"yPos":-45.6660461},"ID":151,"ParamActions":[],"TMPFontGUID":null,"Text":"It
-    sucks","parentUIDs":[150],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":153}],"EditorInfo":{"isRoot":false,"xPos":1112.668,"yPos":23.6669},"ID":152,"ParamActions":[],"TMPFontGUID":null,"Text":"It
-    does.","parentUIDs":[150],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":147}],"EditorInfo":{"isRoot":false,"xPos":368.0001,"yPos":388.333252},"ID":159,"ParamActions":[],"TMPFontGUID":null,"Text":"Remain
-    professional","parentUIDs":[158],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":-679.3331,"yPos":-1896.6665},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Name:
+  CurrentIDCounter: 168
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":337.9978,"yPos":240.849945},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Listen","parentUIDs":[7],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":-55.1661072,"yPos":798.3529},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Review
+    Footage","parentUIDs":[99,147],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":872.828,"yPos":1022.8634},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Ask
+    Questions ","parentUIDs":[147],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":-193.165253,"yPos":1239.1969},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"Judge\n","parentUIDs":[],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":-493.0027,"yPos":1442.53552},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Death","parentUIDs":[25],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":-276.667267,"yPos":1556.53918},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Community
+    Service","parentUIDs":[25],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":33}],"EditorInfo":{"isRoot":false,"xPos":-28.99936,"yPos":1566.53674},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Innocent","parentUIDs":[25],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":1053.82922,"yPos":1282.193},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"Those
+    people had families! Why did you do it?","parentUIDs":[36],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":45}],"EditorInfo":{"isRoot":false,"xPos":1402.16443,"yPos":1365.86145},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"Wait!
+    You used a fork, not a spoon. Why?","parentUIDs":[36],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":1737.50647,"yPos":1475.53137},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"Since
+    when do dogs like ice cream?","parentUIDs":[46],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":52}],"EditorInfo":{"isRoot":false,"xPos":663.4978,"yPos":786.5137},"ID":51,"ParamActions":[],"TMPFontGUID":null,"Text":"Romance","parentUIDs":[7,143,158],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":55}],"EditorInfo":{"isRoot":false,"xPos":508.997864,"yPos":1137.1947},"ID":53,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    free after this?","parentUIDs":[52],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":111}],"EditorInfo":{"isRoot":false,"xPos":738.16626,"yPos":1196.69446},"ID":54,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    are your hobbies? It''s important for the case","parentUIDs":[52],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":60}],"EditorInfo":{"isRoot":false,"xPos":534.500244,"yPos":1842.20984},"ID":59,"ParamActions":[],"TMPFontGUID":null,"Text":"Stilll.
+    Wanna hang out?","parentUIDs":[58],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":64}],"EditorInfo":{"isRoot":false,"xPos":397.8324,"yPos":2050.541},"ID":62,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    can give you whatever you want!","parentUIDs":[60],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":101}],"EditorInfo":{"isRoot":false,"xPos":835.165649,"yPos":2176.21},"ID":63,"ParamActions":[],"TMPFontGUID":null,"Text":"Look
+    suggestively","parentUIDs":[60],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":67}],"EditorInfo":{"isRoot":false,"xPos":438.498169,"yPos":2365.879},"ID":66,"ParamActions":[],"TMPFontGUID":null,"Text":"Flirt
+    more","parentUIDs":[65],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":74}],"EditorInfo":{"isRoot":false,"xPos":537.499146,"yPos":3003.87061},"ID":73,"ParamActions":[],"TMPFontGUID":null,"Text":"By
+    the way, did you do it? I like the bad boys.","parentUIDs":[71],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":77}],"EditorInfo":{"isRoot":false,"xPos":175.83194,"yPos":3206.15},"ID":75,"ParamActions":[],"TMPFontGUID":null,"Text":"Has
+    anyone ever told you your eyes look like moss?\r","parentUIDs":[74,103,113,129],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":161}],"EditorInfo":{"isRoot":false,"xPos":1094.6676,"yPos":4902.826},"ID":76,"ParamActions":[],"TMPFontGUID":null,"Text":"Surprise!
+    I tricked you!","parentUIDs":[74],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":79}],"EditorInfo":{"isRoot":false,"xPos":779.3331,"yPos":3389.62744},"ID":78,"ParamActions":[],"TMPFontGUID":null,"Text":"Talk
+    dirty","parentUIDs":[77],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":84}],"EditorInfo":{"isRoot":false,"xPos":773.000366,"yPos":3916.11328},"ID":83,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe
+    not to jail... But what about hom arrest at my place?","parentUIDs":[82],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":94}],"EditorInfo":{"isRoot":false,"xPos":355.998779,"yPos":4655.47461},"ID":92,"ParamActions":[],"TMPFontGUID":null,"Text":"Take
+    offer","parentUIDs":[91],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":98}],"EditorInfo":{"isRoot":false,"xPos":591.6654,"yPos":4762.12354},"ID":93,"ParamActions":[],"TMPFontGUID":null,"Text":"Come
+    to your senses","parentUIDs":[91],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":718.4978,"yPos":5255.57129},"ID":97,"ParamActions":[],"TMPFontGUID":null,"Text":"End
+    case","parentUIDs":[96,162],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":110}],"EditorInfo":{"isRoot":false,"xPos":473.8319,"yPos":-344.66156},"ID":100,"ParamActions":[],"TMPFontGUID":null,"Text":"Analyse","parentUIDs":[3],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":116}],"EditorInfo":{"isRoot":false,"xPos":1057.159,"yPos":1718.37268},"ID":115,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
+    crucial.... In determining your goodness level.","parentUIDs":[113],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":125}],"EditorInfo":{"isRoot":false,"xPos":1037.33069,"yPos":2571.02637},"ID":123,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    are not bad yourself!","parentUIDs":[122],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":129}],"EditorInfo":{"isRoot":false,"xPos":1332.99841,"yPos":2563.86182},"ID":124,"ParamActions":[],"TMPFontGUID":null,"Text":"Smirk
+    and wink","parentUIDs":[122],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-827.323853,"yPos":1025.70349},"ID":138,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    you''re right. Duh. (sarcastic)","parentUIDs":[24],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-820.658569,"yPos":879.0381},"ID":139,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    think you are hiding something.","parentUIDs":[24],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":141}],"EditorInfo":{"isRoot":false,"xPos":-814.657837,"yPos":753.6896},"ID":140,"ParamActions":[],"TMPFontGUID":null,"Text":"Thank
+    you!","parentUIDs":[24],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":147}],"EditorInfo":{"isRoot":false,"xPos":290.333282,"yPos":1173.67224},"ID":146,"ParamActions":[],"TMPFontGUID":null,"Text":"Interogate","parentUIDs":[42,143,128],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":150}],"EditorInfo":{"isRoot":false,"xPos":1752.66809,"yPos":1615.006},"ID":149,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
+    are you dressed like a cowboy?","parentUIDs":[46],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":160}],"EditorInfo":{"isRoot":false,"xPos":2025.32825,"yPos":1375.66882},"ID":151,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    sucks","parentUIDs":[150],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":153}],"EditorInfo":{"isRoot":false,"xPos":2260.01025,"yPos":1521.67468},"ID":152,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    does.","parentUIDs":[150],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":147}],"EditorInfo":{"isRoot":false,"xPos":1416.66736,"yPos":1754.338},"ID":159,"ParamActions":[],"TMPFontGUID":null,"Text":"Remain
+    professional","parentUIDs":[158],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":164}],"EditorInfo":{"isRoot":false,"xPos":1271.6676,"yPos":3108.3374},"ID":163,"ParamActions":[],"TMPFontGUID":null,"Text":"Try
+    again","parentUIDs":[128],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":485.999756,"yPos":-528.662231},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Name:
     Andrew Juan Colmenero\r\nGender: Male\r\nAge: 25\r\nCitizenship: Spanish\r\nBirth:
     10 \/ 05 \/ 2000\r\nCharge: Murder charge with a spoon at a fast food restaurant
-    over the ice cream machine not working.\r\n","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Brifing","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":100}],"EditorInfo":{"isRoot":false,"xPos":-687.8342,"yPos":-1802.16333},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Mr.
+    over the ice cream machine not working.\r\n","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Brifing","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":100}],"EditorInfo":{"isRoot":false,"xPos":477.499023,"yPos":-434.158356},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Mr.
     Colmenero entered a fast food restaurant yesterday in the hopes of getting an
     ice cream, but to his dismay, it was broken. Enraged by this, he picked one of
     the free plastic spoons and violently killed the staff. Before his sentence,
     he was interviewed by a local journalist. This is what he had to say: \"I will
     never trust ever again! Give me that ice cream!\" After this, he attacked the
     poor man and stole his hard-earned ice cream. The worst tragedy in the past month.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Crime
-    Detail","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":-704.3352,"yPos":-1549.842},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"All
+    Detail","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":460.998047,"yPos":-181.836792},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"All
     rise for the judge!\r\nCourt is now in session! Andrew Colmenero, you are charged
     with murder and assault of multiple people using an ice cream spoon. How do you
-    plead?","parentUIDs":[110],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bailif","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":-693.6682,"yPos":-1446.16357},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Not
-    guilty!","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":-693.8347,"yPos":-1353.49927},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"The
-    evidence is quite strong.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":8},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":51}],"EditorInfo":{"isRoot":false,"xPos":-690.6682,"yPos":-1260.67334},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    plead?","parentUIDs":[110],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bailif","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":471.6648,"yPos":-78.1571045},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Not
+    guilty!","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":471.4983,"yPos":14.5113831},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    evidence is quite strong.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":8},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":51}],"EditorInfo":{"isRoot":false,"xPos":474.664917,"yPos":107.333344},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     am not guilty, your honour! I promise! It''s all a misunderstanding! I would
-    never attack using a spoon! It''s beneath me! Let me tell you what actually happened.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":-835.3363,"yPos":-1057.1604},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    It was terrible, your honour! Absolutely terrible!","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":-832.8368,"yPos":-961.159363},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    Yeah, yeah, I''m sure it was, now get on with it!","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":-828.8367,"yPos":-854.1441},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    never attack using a spoon! It''s beneath me! Let me tell you what actually happened.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":344.664459,"yPos":304.8423},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    It was terrible, your honour! Absolutely terrible!","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":332.49707,"yPos":406.8389},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    Yeah, yeah, I''m sure it was, now get on with it!","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":336.49707,"yPos":513.853149},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"The
     day started normally! I woke up as the beautiful sunshine entered my room, watered
     my plants and petted my dog. After this, I realised that we were out of food!
     So of course, since I am such a caring and good person, I grabbed my last few
-    funds and went to the restaurant to buy an ice cream for my dog!","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":-837.6698,"yPos":-755.3061},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"For...
-    Your dog?","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":-844.6692,"yPos":-654.477966},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes,
-    your honour! You see, my dog loves ice cream! And he was starving!","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":-844.1699,"yPos":-552.8067},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"What
-    about you?","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":143}],"EditorInfo":{"isRoot":false,"xPos":-847.3369,"yPos":-451.805359},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    funds and went to the restaurant to buy an ice cream for my dog!","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":327.6643,"yPos":612.6931},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"For...
+    Your dog?","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":320.665039,"yPos":713.518555},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes,
+    your honour! You see, my dog loves ice cream! And he was starving!","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":321.1643,"yPos":815.19104},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    about you?","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":143}],"EditorInfo":{"isRoot":false,"xPos":317.9973,"yPos":916.196045},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     was starving as well, but my dog was more important. Because love and friendship
     are what truly matter! So I went to the restaurant. Everything seemed normal
     at first, but then, when I ordered, I saw the employees'' eyes lit up with a
-    wicked sparkle! And then they attacked me!","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":136}],"EditorInfo":{"isRoot":false,"xPos":-1620.1687,"yPos":-577.8089},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
+    wicked sparkle! And then they attacked me!","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":136}],"EditorInfo":{"isRoot":false,"xPos":-454.8357,"yPos":790.18335},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
     nod, taking into consideration what Andrew told you. You wonder if what he told
     you is true. But then you remember! You have footage! You take a DVD and then
     put it into a player. A small TV glitches to life and shows the security footage
     from the restaurant. You watch as you see the friendly staff welcoming Andrew.
     They talk for a bit, but suddenly, the staff starts to yell at Andrew. They seem
-    very upset. He picks up a fork...)","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"DVD","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":138},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":139},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":140}],"EditorInfo":{"isRoot":false,"xPos":-1621.66675,"yPos":-310.1352},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"Watch
+    very upset. He picks up a fork...)","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"DVD","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":138},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":139},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":140}],"EditorInfo":{"isRoot":false,"xPos":-456.333984,"yPos":1057.86584},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"Watch
     out! The footage is cursed by the satanic ice cream machine cult! I''m sorry,
-    your honour, but you can''t watch it!","parentUIDs":[136],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":26},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":27},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":-1358.331,"yPos":27.8612366},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Andrew
-    Colmenero, I sentence you to...","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":-1677.99976,"yPos":178.196014},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Death
-    by iron maiden! The most ethical choice, obviously.","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":31}],"EditorInfo":{"isRoot":false,"xPos":-1675.333,"yPos":326.197327},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"WHAT?!","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-1693.99927,"yPos":467.868439},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    your honour, but you can''t watch it!","parentUIDs":[136],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":26},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":27},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":-192.99704,"yPos":1395.86389},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Andrew
+    Colmenero, I sentence you to...","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":-512.667,"yPos":1546.20471},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Death
+    by iron maiden! The most ethical choice, obviously.","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":31}],"EditorInfo":{"isRoot":false,"xPos":-510.000732,"yPos":1694.20251},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"WHAT?!","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-528.666748,"yPos":1835.8761},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"You
     heard me! Have fun! And please leave the court a review online! Have a good last
-    day!","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-1456.83252,"yPos":340.0308},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"Community
+    day!","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-291.499542,"yPos":1708.037},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"Community
     service! You are to work as a cleaner for the rest of your life without any payment
-    in a Mexican restaurant! So basically the usual salary! Byeeeeee!","parentUIDs":[27],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-1172.6687,"yPos":374.199371},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"Sorry,
-    I mean you are innocent! You can leave! The case is finished! Lunch time!","parentUIDs":[28],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":37},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":29.1601868,"yPos":-219.138},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    going to ask you some questions.","parentUIDs":[47,21,159],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":42}],"EditorInfo":{"isRoot":false,"xPos":-118.169891,"yPos":26.1947327},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    in a Mexican restaurant! So basically the usual salary! Byeeeeee!","parentUIDs":[27],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-7.33432,"yPos":1742.20349},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"Sorry,
+    I mean you are innocent! You can leave! The case is finished! Lunch time!","parentUIDs":[28],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":37},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":1194.49377,"yPos":1148.86292},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    going to ask you some questions.","parentUIDs":[47,21,159],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":42}],"EditorInfo":{"isRoot":false,"xPos":1047.16321,"yPos":1394.19739},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     mean... Are you sure I did it? Besides, the world is better without them! No
-    more ice cream machine gatekeeping!","parentUIDs":[37],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":146}],"EditorInfo":{"isRoot":false,"xPos":-59.83908,"yPos":148.031952},"ID":42,"ParamActions":[],"TMPFontGUID":null,"Text":"Aha...","parentUIDs":[40],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":46}],"EditorInfo":{"isRoot":false,"xPos":276.496826,"yPos":81.19528},"ID":45,"ParamActions":[],"TMPFontGUID":null,"Text":"Forks
-    are just better!","parentUIDs":[38],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":39},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":149}],"EditorInfo":{"isRoot":false,"xPos":236.998108,"yPos":219.8646},"ID":46,"ParamActions":[],"TMPFontGUID":null,"Text":"Makes
-    Sense","parentUIDs":[45],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":497.505859,"yPos":-73.4720459},"ID":47,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    Since like the dawn of time! Ask a vet, they''d agree!","parentUIDs":[39],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":53},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":54}],"EditorInfo":{"isRoot":false,"xPos":-512.167847,"yPos":-449.803284},"ID":52,"ParamActions":[],"TMPFontGUID":null,"Text":"(He
+    more ice cream machine gatekeeping!","parentUIDs":[37],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":146}],"EditorInfo":{"isRoot":false,"xPos":1105.49426,"yPos":1516.03943},"ID":42,"ParamActions":[],"TMPFontGUID":null,"Text":"Aha...","parentUIDs":[40],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":46}],"EditorInfo":{"isRoot":false,"xPos":1441.83093,"yPos":1449.20056},"ID":45,"ParamActions":[],"TMPFontGUID":null,"Text":"Forks
+    are just better!","parentUIDs":[38],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":39},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":149}],"EditorInfo":{"isRoot":false,"xPos":1402.33289,"yPos":1587.87146},"ID":46,"ParamActions":[],"TMPFontGUID":null,"Text":"Makes
+    Sense","parentUIDs":[45],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":1662.83972,"yPos":1294.53088},"ID":47,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    Since like the dawn of time! Ask a vet, they''d agree!","parentUIDs":[160,39],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":53},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":54}],"EditorInfo":{"isRoot":false,"xPos":653.832764,"yPos":938.198853},"ID":52,"ParamActions":[],"TMPFontGUID":null,"Text":"(He
     is kind of cute... That beard. And that cowboy hat! Damn bro! That''s what I''m
-    talking about! Maybe I can ask him out. But how?)","parentUIDs":[51],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":56}],"EditorInfo":{"isRoot":false,"xPos":-649.3334,"yPos":-6.30557251},"ID":55,"ParamActions":[],"TMPFontGUID":null,"Text":"Andrew:
-    No! Sorry, I have a dentist appointment.","parentUIDs":[53],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":57}],"EditorInfo":{"isRoot":false,"xPos":-634.167847,"yPos":134.031311},"ID":56,"ParamActions":[],"TMPFontGUID":null,"Text":"Wh...
-    What? You realise you might go to prison, right?","parentUIDs":[55],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":58}],"EditorInfo":{"isRoot":false,"xPos":-638.5006,"yPos":251.194885},"ID":57,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    talking about! Maybe I can ask him out. But how?)","parentUIDs":[51,167],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":56}],"EditorInfo":{"isRoot":false,"xPos":531.999756,"yPos":1340.36389},"ID":55,"ParamActions":[],"TMPFontGUID":null,"Text":"Andrew:
+    No! Sorry, I have a dentist appointment.","parentUIDs":[53],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":57}],"EditorInfo":{"isRoot":false,"xPos":531.1655,"yPos":1502.03748},"ID":56,"ParamActions":[],"TMPFontGUID":null,"Text":"Wh...
+    What? You realise you might go to prison, right?","parentUIDs":[55],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":58}],"EditorInfo":{"isRoot":false,"xPos":525.4994,"yPos":1619.20178},"ID":57,"ParamActions":[],"TMPFontGUID":null,"Text":"
     Yeah! But I still have to care about my teeth! That''s what good, kind people
-    do.","parentUIDs":[56],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":59}],"EditorInfo":{"isRoot":false,"xPos":-619.5,"yPos":359.700226},"ID":58,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    Of course.","parentUIDs":[57],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":62},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":63}],"EditorInfo":{"isRoot":false,"xPos":-642.5,"yPos":566.1993},"ID":60,"ParamActions":[],"TMPFontGUID":null,"Text":"Stilll.
-    Wanna hang out?","parentUIDs":[59],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":65}],"EditorInfo":{"isRoot":false,"xPos":-764.8341,"yPos":769.0429},"ID":64,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    smirks)\r\nAndrew: Oh, I think we''ll get along perfectly!","parentUIDs":[62],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":66}],"EditorInfo":{"isRoot":false,"xPos":-741.501343,"yPos":899.7082},"ID":65,"ParamActions":[],"TMPFontGUID":null,"Text":"Judge:
-    That''s what I''m hoping for, darling!","parentUIDs":[64],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":68}],"EditorInfo":{"isRoot":false,"xPos":-724.8346,"yPos":1075.69409},"ID":67,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    I mean, look at those eyes.\r","parentUIDs":[66],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":69}],"EditorInfo":{"isRoot":false,"xPos":-577.167847,"yPos":1152.35522},"ID":68,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    blushes before smugly moving his hand through his hair.)","parentUIDs":[67],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":70}],"EditorInfo":{"isRoot":false,"xPos":-576.167358,"yPos":1271.53247},"ID":69,"ParamActions":[],"TMPFontGUID":null,"Text":"And
-    that moustache! It''s just something else!","parentUIDs":[68],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":71}],"EditorInfo":{"isRoot":false,"xPos":-589.8342,"yPos":1389.86865},"ID":70,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
-    stop it! Ha ha ha! But please, continue. I''m awesome, aren''t I?","parentUIDs":[69],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":73}],"EditorInfo":{"isRoot":false,"xPos":-628.83374,"yPos":1514.85938},"ID":71,"ParamActions":[],"TMPFontGUID":null,"Text":"The
-    best!","parentUIDs":[70],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":76}],"EditorInfo":{"isRoot":false,"xPos":-599.8342,"yPos":1772.50635},"ID":74,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    Hell yeah, I did!","parentUIDs":[73],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":78}],"EditorInfo":{"isRoot":false,"xPos":-384.6679,"yPos":1898.303},"ID":77,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
-    strange, man! You are a weirdo! But I like me a freak!","parentUIDs":[75],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":80}],"EditorInfo":{"isRoot":false,"xPos":-391.3344,"yPos":2102.46729},"ID":79,"ParamActions":[],"TMPFontGUID":null,"Text":"Don''t
-    you dare threaten me with a good time!","parentUIDs":[78],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":81}],"EditorInfo":{"isRoot":false,"xPos":-402.501343,"yPos":2216.96973},"ID":80,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    threatened you with jail.","parentUIDs":[79],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":82}],"EditorInfo":{"isRoot":false,"xPos":-398.5014,"yPos":2323.63379},"ID":81,"ParamActions":[],"TMPFontGUID":null,"Text":"Have
+    do.","parentUIDs":[56],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":59}],"EditorInfo":{"isRoot":false,"xPos":534.4995,"yPos":1765.70422},"ID":58,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    Of course.","parentUIDs":[57],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":62},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":63}],"EditorInfo":{"isRoot":false,"xPos":522.833252,"yPos":1934.20593},"ID":60,"ParamActions":[],"TMPFontGUID":null,"Text":"Stilll.
+    Wanna hang out?","parentUIDs":[59],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":65}],"EditorInfo":{"isRoot":false,"xPos":400.4994,"yPos":2137.05225},"ID":64,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    smirks)\r\nAndrew: Oh, I think we''ll get along perfectly!","parentUIDs":[62],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":66}],"EditorInfo":{"isRoot":false,"xPos":423.832642,"yPos":2267.71729},"ID":65,"ParamActions":[],"TMPFontGUID":null,"Text":"Judge:
+    That''s what I''m hoping for, darling!","parentUIDs":[64],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":68}],"EditorInfo":{"isRoot":false,"xPos":440.498657,"yPos":2443.7085},"ID":67,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    I mean, look at those eyes.\r","parentUIDs":[66],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":69}],"EditorInfo":{"isRoot":false,"xPos":588.1649,"yPos":2520.36475},"ID":68,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    blushes before smugly moving his hand through his hair.)","parentUIDs":[67],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":70}],"EditorInfo":{"isRoot":false,"xPos":589.1664,"yPos":2639.53857},"ID":69,"ParamActions":[],"TMPFontGUID":null,"Text":"And
+    that moustache! It''s just something else!","parentUIDs":[68],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":71}],"EditorInfo":{"isRoot":false,"xPos":575.4989,"yPos":2757.876},"ID":70,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    stop it! Ha ha ha! But please, continue. I''m awesome, aren''t I?","parentUIDs":[69],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":73}],"EditorInfo":{"isRoot":false,"xPos":536.499634,"yPos":2882.86182},"ID":71,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    best!","parentUIDs":[70],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":76}],"EditorInfo":{"isRoot":false,"xPos":563.4989,"yPos":3151.17578},"ID":74,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    Hell yeah, I did!","parentUIDs":[73],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":78}],"EditorInfo":{"isRoot":false,"xPos":777.3329,"yPos":3256.96875},"ID":77,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
+    strange, man! You are a weirdo! But I like me a freak!","parentUIDs":[75],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":80}],"EditorInfo":{"isRoot":false,"xPos":773.999634,"yPos":3470.458},"ID":79,"ParamActions":[],"TMPFontGUID":null,"Text":"Don''t
+    you dare threaten me with a good time!","parentUIDs":[78],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":81}],"EditorInfo":{"isRoot":false,"xPos":762.8324,"yPos":3584.96},"ID":80,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    threatened you with jail.","parentUIDs":[79],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":82}],"EditorInfo":{"isRoot":false,"xPos":766.8329,"yPos":3691.62451},"ID":81,"ParamActions":[],"TMPFontGUID":null,"Text":"Have
     you seen those places? The policeman and guards? Just perfect. Oh yes! I''d be
     CENSORED! And then I''d CENSORED! With a CENSORED! Oh yes! I can''t wait! Are
-    we going there soon, judgy?","parentUIDs":[80],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":83}],"EditorInfo":{"isRoot":false,"xPos":-393.8344,"yPos":2448.7998},"ID":82,"ParamActions":[],"TMPFontGUID":null,"Text":"(Noted.
-    No jail for him.)","parentUIDs":[81],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":85}],"EditorInfo":{"isRoot":false,"xPos":-361.333923,"yPos":2628.62939},"ID":84,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    is taken aback for a bit, but quickly smirks sugestively.)","parentUIDs":[83],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":86}],"EditorInfo":{"isRoot":false,"xPos":-314.6667,"yPos":2736.79883},"ID":85,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    mean. If that''s my sentence, judgy, who am I to say no?","parentUIDs":[84],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":87}],"EditorInfo":{"isRoot":false,"xPos":-326.832947,"yPos":2854.30371},"ID":86,"ParamActions":[],"TMPFontGUID":null,"Text":"Andrew
-    bites his lips and moves his eybrows up and down.","parentUIDs":[85],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":88}],"EditorInfo":{"isRoot":false,"xPos":-317.8332,"yPos":2963.463},"ID":87,"ParamActions":[],"TMPFontGUID":null,"Text":"We
+    we going there soon, judgy?","parentUIDs":[80],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":83}],"EditorInfo":{"isRoot":false,"xPos":771.4994,"yPos":3816.7915},"ID":82,"ParamActions":[],"TMPFontGUID":null,"Text":"(Noted.
+    No jail for him.)","parentUIDs":[81],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":85}],"EditorInfo":{"isRoot":false,"xPos":803.9999,"yPos":3996.61475},"ID":84,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    is taken aback for a bit, but quickly smirks sugestively.)","parentUIDs":[83],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":86}],"EditorInfo":{"isRoot":false,"xPos":850.6671,"yPos":4104.777},"ID":85,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    mean. If that''s my sentence, judgy, who am I to say no?","parentUIDs":[84],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":87}],"EditorInfo":{"isRoot":false,"xPos":838.5011,"yPos":4222.282},"ID":86,"ParamActions":[],"TMPFontGUID":null,"Text":"Andrew
+    bites his lips and moves his eybrows up and down.","parentUIDs":[85],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":88}],"EditorInfo":{"isRoot":false,"xPos":847.5011,"yPos":4331.43945},"ID":87,"ParamActions":[],"TMPFontGUID":null,"Text":"We
     can also stop by a cafe or an arms shop! I can show you my favourite guns. They
-    almost do the job as good as a fork.","parentUIDs":[86],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":89}],"EditorInfo":{"isRoot":false,"xPos":-301.332031,"yPos":3076.63379},"ID":88,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
-    sweat a bit and blush.)","parentUIDs":[87],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":90}],"EditorInfo":{"isRoot":false,"xPos":-308.166443,"yPos":3183.31},"ID":89,"ParamActions":[],"TMPFontGUID":null,"Text":"Isn''t
-    that an interesting offer!","parentUIDs":[88],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":91}],"EditorInfo":{"isRoot":false,"xPos":-313.166931,"yPos":3290.4917},"ID":90,"ParamActions":[],"TMPFontGUID":null,"Text":"Only
-    for my favourite judge!","parentUIDs":[89],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":92},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":93}],"EditorInfo":{"isRoot":false,"xPos":-589.66626,"yPos":3271.6416},"ID":91,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    winks.)","parentUIDs":[90],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":95}],"EditorInfo":{"isRoot":false,"xPos":-819.668945,"yPos":3420.143},"ID":94,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
-    smirk as you look at Andrew suggestively.)","parentUIDs":[92],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":96}],"EditorInfo":{"isRoot":false,"xPos":-835.8353,"yPos":3558.97314},"ID":95,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    I''ll take you on that offer, cowboy! Maybe you can teach me how to ride a horse.","parentUIDs":[94],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":97}],"EditorInfo":{"isRoot":false,"xPos":-847.168945,"yPos":3744.82617},"ID":96,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    think I''ll be teaching you how to ride many things, judgy.","parentUIDs":[95],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":99}],"EditorInfo":{"isRoot":false,"xPos":-574.501343,"yPos":3498.79883},"ID":98,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
+    almost do the job as good as a fork.","parentUIDs":[86],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":89}],"EditorInfo":{"isRoot":false,"xPos":864.0016,"yPos":4444.613},"ID":88,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
+    sweat a bit and blush.)","parentUIDs":[87],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":90}],"EditorInfo":{"isRoot":false,"xPos":857.1671,"yPos":4551.29053},"ID":89,"ParamActions":[],"TMPFontGUID":null,"Text":"Isn''t
+    that an interesting offer!","parentUIDs":[88],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":91}],"EditorInfo":{"isRoot":false,"xPos":852.1666,"yPos":4658.48633},"ID":90,"ParamActions":[],"TMPFontGUID":null,"Text":"Only
+    for my favourite judge!","parentUIDs":[89],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":92},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":93}],"EditorInfo":{"isRoot":false,"xPos":575.6669,"yPos":4639.6377},"ID":91,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    winks.)","parentUIDs":[90],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":95}],"EditorInfo":{"isRoot":false,"xPos":345.664581,"yPos":4788.138},"ID":94,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
+    smirk as you look at Andrew suggestively.)","parentUIDs":[92],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":96}],"EditorInfo":{"isRoot":false,"xPos":329.498779,"yPos":4926.987},"ID":95,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    I''ll take you on that offer, cowboy! Maybe you can teach me how to ride a horse.","parentUIDs":[94],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":97}],"EditorInfo":{"isRoot":false,"xPos":318.165283,"yPos":5112.827},"ID":96,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    think I''ll be teaching you how to ride many things, judgy.","parentUIDs":[95],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":99}],"EditorInfo":{"isRoot":false,"xPos":590.832153,"yPos":4866.801},"ID":98,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
     relaise how corupt you''ve become. Andrew observes the change happening on your
-    face and gets worried. You look at him, stone cold.)","parentUIDs":[93],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":-379.3349,"yPos":3600.29639},"ID":99,"ParamActions":[],"TMPFontGUID":null,"Text":"Now
-    that I know more about you, Colmenero, it''s time for the real trial to begin.","parentUIDs":[98],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":102}],"EditorInfo":{"isRoot":false,"xPos":-350.1671,"yPos":950.041443},"ID":101,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    is a little shocked, but then moves his eyebrows up and down.)","parentUIDs":[63],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":103}],"EditorInfo":{"isRoot":false,"xPos":-346.336182,"yPos":1109.53906},"ID":102,"ParamActions":[],"TMPFontGUID":null,"Text":"Interesting","parentUIDs":[101],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75}],"EditorInfo":{"isRoot":false,"xPos":-362.33783,"yPos":1368.86426},"ID":103,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    is happy and blows you a kiss.)","parentUIDs":[102],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":-689.6677,"yPos":-1654.67627},"ID":110,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
+    face and gets worried. You look at him, stone cold.)","parentUIDs":[93],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":781.999146,"yPos":4998.28564},"ID":99,"ParamActions":[],"TMPFontGUID":null,"Text":"Now
+    that I know more about you, Colmenero, it''s time for the real trial to begin.","parentUIDs":[98],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":102}],"EditorInfo":{"isRoot":false,"xPos":815.1671,"yPos":2318.05225},"ID":101,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    is a little shocked, but then moves his eyebrows up and down.)","parentUIDs":[63],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":103}],"EditorInfo":{"isRoot":false,"xPos":818.9978,"yPos":2477.55127},"ID":102,"ParamActions":[],"TMPFontGUID":null,"Text":"Interesting","parentUIDs":[101],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75}],"EditorInfo":{"isRoot":false,"xPos":802.9962,"yPos":2736.872},"ID":103,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    is happy and blows you a kiss.)","parentUIDs":[102],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":475.665283,"yPos":-286.667725},"ID":110,"ParamActions":[],"TMPFontGUID":null,"Text":"(You
     look at the weird way the man dressed. He has a cowboy outfit. But for some reason,
     he added cutlery elements to it. Is he even a cowboy or just a guy pretending
     to be one? Is he free tonight for a night of fun? Is he a murderer or misunderstood?
-    Can I fix him? So many questions.)","parentUIDs":[100],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":112}],"EditorInfo":{"isRoot":false,"xPos":-367.335876,"yPos":-74.80652},"ID":111,"ParamActions":[],"TMPFontGUID":null,"Text":"Hmmm...
-    I like riding horses.","parentUIDs":[54],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":113}],"EditorInfo":{"isRoot":false,"xPos":-325.336365,"yPos":122.031189},"ID":112,"ParamActions":[],"TMPFontGUID":null,"Text":"Really?
-    Tell me more!","parentUIDs":[111],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":115},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75}],"EditorInfo":{"isRoot":false,"xPos":-364.503357,"yPos":287.862061},"ID":113,"ParamActions":[],"TMPFontGUID":null,"Text":"How
-    is this related to the case?","parentUIDs":[112],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":117}],"EditorInfo":{"isRoot":false,"xPos":-37.33908,"yPos":460.370361},"ID":116,"ParamActions":[],"TMPFontGUID":null,"Text":"No
-    problemo! I love feeding animals, playing guitar and raising money for charity.","parentUIDs":[115],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":118}],"EditorInfo":{"isRoot":false,"xPos":-37.8385925,"yPos":564.363831},"ID":117,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    do charity?","parentUIDs":[116],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":119}],"EditorInfo":{"isRoot":false,"xPos":-46.1730652,"yPos":678.3642},"ID":118,"ParamActions":[],"TMPFontGUID":null,"Text":"Of
+    Can I fix him? So many questions.)","parentUIDs":[100],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":112}],"EditorInfo":{"isRoot":false,"xPos":797.998169,"yPos":1350.52942},"ID":111,"ParamActions":[],"TMPFontGUID":null,"Text":"Hmmm...
+    I like riding horses.","parentUIDs":[54],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":113}],"EditorInfo":{"isRoot":false,"xPos":839.997437,"yPos":1490.03772},"ID":112,"ParamActions":[],"TMPFontGUID":null,"Text":"Really?
+    Tell me more!","parentUIDs":[111],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":115},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75}],"EditorInfo":{"isRoot":false,"xPos":804.830933,"yPos":1647.20178},"ID":113,"ParamActions":[],"TMPFontGUID":null,"Text":"How
+    is this related to the case?","parentUIDs":[112],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":117}],"EditorInfo":{"isRoot":false,"xPos":1127.99426,"yPos":1828.37708},"ID":116,"ParamActions":[],"TMPFontGUID":null,"Text":"No
+    problemo! I love feeding animals, playing guitar and raising money for charity.","parentUIDs":[115],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":118}],"EditorInfo":{"isRoot":false,"xPos":1125.49475,"yPos":1951.70325},"ID":117,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    do charity?","parentUIDs":[116],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":119}],"EditorInfo":{"isRoot":false,"xPos":1119.16052,"yPos":2046.374},"ID":118,"ParamActions":[],"TMPFontGUID":null,"Text":"Of
     course! I''m funding an organisation that will end all spoon factories and turn
-    them into fork factories!","parentUIDs":[117],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":120}],"EditorInfo":{"isRoot":false,"xPos":-21.839325,"yPos":777.3747},"ID":119,"ParamActions":[],"TMPFontGUID":null,"Text":"Amazing!
-    But why?","parentUIDs":[118],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":121}],"EditorInfo":{"isRoot":false,"xPos":-14.3403015,"yPos":892.3703},"ID":120,"ParamActions":[],"TMPFontGUID":null,"Text":"Because
-    forks are just a better race of cutlery!","parentUIDs":[119],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":122}],"EditorInfo":{"isRoot":false,"xPos":-15.8398132,"yPos":985.86676},"ID":121,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
-    so poetic!","parentUIDs":[120],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":123},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":124}],"EditorInfo":{"isRoot":false,"xPos":-30.172821,"yPos":1091.02612},"ID":122,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    Hell yeah, man! I like your vibe.","parentUIDs":[121],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":126}],"EditorInfo":{"isRoot":false,"xPos":-127.504364,"yPos":1286.70264},"ID":125,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    them into fork factories!","parentUIDs":[117],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":120}],"EditorInfo":{"isRoot":false,"xPos":1143.49475,"yPos":2145.38525},"ID":119,"ParamActions":[],"TMPFontGUID":null,"Text":"Amazing!
+    But why?","parentUIDs":[118],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":121}],"EditorInfo":{"isRoot":false,"xPos":1150.99255,"yPos":2260.37939},"ID":120,"ParamActions":[],"TMPFontGUID":null,"Text":"Because
+    forks are just a better race of cutlery!","parentUIDs":[119],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":122}],"EditorInfo":{"isRoot":false,"xPos":1149.49329,"yPos":2353.876},"ID":121,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
+    so poetic!","parentUIDs":[120],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":123},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":124}],"EditorInfo":{"isRoot":false,"xPos":1135.16174,"yPos":2459.03955},"ID":122,"ParamActions":[],"TMPFontGUID":null,"Text":"
+    Hell yeah, man! I like your vibe.","parentUIDs":[121],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":126}],"EditorInfo":{"isRoot":false,"xPos":1037.82947,"yPos":2654.709},"ID":125,"ParamActions":[],"TMPFontGUID":null,"Text":"What
     do you mean? You mean I''m just ok? Not cool, man! I''m more than ok! I''m a
-    god of hotness!","parentUIDs":[123],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":127}],"EditorInfo":{"isRoot":false,"xPos":-137.6708,"yPos":1431.03687},"ID":126,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
-    not...","parentUIDs":[125],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":128}],"EditorInfo":{"isRoot":false,"xPos":-122.838837,"yPos":1575.19385},"ID":127,"ParamActions":[],"TMPFontGUID":null,"Text":"Shut
-    it! Let''s get on with this case already!","parentUIDs":[126],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-116.504364,"yPos":1723.179},"ID":128,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    stares at you, upset. This romance isn''t going any further. Best to at least
-    review the footage.)","parentUIDs":[127],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75}],"EditorInfo":{"isRoot":false,"xPos":161.663666,"yPos":1327.197},"ID":129,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
-    is happy and blows you a kiss.)","parentUIDs":[124],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":-1621.33521,"yPos":-419.296875},"ID":136,"ParamActions":[],"TMPFontGUID":null,"Text":"(Panicked,
-    Andrew throws a fork at the TV, making it explode.)\r","parentUIDs":[22],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-2276.652,"yPos":-759.9654},"ID":141,"ParamActions":[],"TMPFontGUID":null,"Text":"","parentUIDs":[140],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":146},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":51}],"EditorInfo":{"isRoot":false,"xPos":-869.001831,"yPos":-325.986725},"ID":143,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    god of hotness!","parentUIDs":[123],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":127}],"EditorInfo":{"isRoot":false,"xPos":1027.663,"yPos":2799.046},"ID":126,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
+    not...","parentUIDs":[125],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":128}],"EditorInfo":{"isRoot":false,"xPos":1019.82782,"yPos":2939.86914},"ID":127,"ParamActions":[],"TMPFontGUID":null,"Text":"Shut
+    it! Let''s get on with this case already!","parentUIDs":[126],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":146},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":163}],"EditorInfo":{"isRoot":false,"xPos":995.495,"yPos":3113.185},"ID":128,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    stares at you, upset. This romance isn''t going any further. I could judge him
+    more professionally or try to romance him again.)","parentUIDs":[127],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75}],"EditorInfo":{"isRoot":false,"xPos":1312.32971,"yPos":2640.539},"ID":129,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    is happy and blows you a kiss.)","parentUIDs":[124],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":-456.002441,"yPos":948.7035},"ID":136,"ParamActions":[],"TMPFontGUID":null,"Text":"(Panicked,
+    Andrew throws a fork at the TV, making it explode.)\r","parentUIDs":[22],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-1111.31677,"yPos":608.035645},"ID":141,"ParamActions":[],"TMPFontGUID":null,"Text":"","parentUIDs":[140],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":146},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":51}],"EditorInfo":{"isRoot":false,"xPos":296.3323,"yPos":1042.01379},"ID":143,"ParamActions":[],"TMPFontGUID":null,"Text":"The
     ice cream machine was broken for months, and it requires a human sacrifice to
     work! And all the workers were like savage animals left to starve! They picked
     me up after and were about to put me on the grill when I grabbed a fork and was
     able to fight back! I managed to escape, but they framed me for murder. It was
-    self-defence, your honour!","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":-925.667,"yPos":-115.994751},"ID":147,"ParamActions":[],"TMPFontGUID":null,"Text":"How
-    should I get info about him?","parentUIDs":[146,159],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":151},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":152}],"EditorInfo":{"isRoot":false,"xPos":867.999268,"yPos":133.333557},"ID":150,"ParamActions":[],"TMPFontGUID":null,"Text":"When
+    self-defence, your honour!","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":176.334381,"yPos":1285.3407},"ID":147,"ParamActions":[],"TMPFontGUID":null,"Text":"How
+    should I get info about him?","parentUIDs":[146,159],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":151},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":152}],"EditorInfo":{"isRoot":false,"xPos":2007.32776,"yPos":1504.00574},"ID":150,"ParamActions":[],"TMPFontGUID":null,"Text":"When
     I was little I saw a movie with lots of cowboys in it and I wanted to be just
-    like them. So I started dressing this way. I hope it looks good...","parentUIDs":[149],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":154}],"EditorInfo":{"isRoot":false,"xPos":1096.00024,"yPos":394.6663},"ID":153,"ParamActions":[],"TMPFontGUID":null,"Text":"It
-    really does! You look great, man!","parentUIDs":[152],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":155}],"EditorInfo":{"isRoot":false,"xPos":1096.00024,"yPos":527.9991},"ID":154,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
-    thanks! I''m always a bit insecure about it!","parentUIDs":[153],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":156}],"EditorInfo":{"isRoot":false,"xPos":839.3323,"yPos":526.6661},"ID":155,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
-    only the truth","parentUIDs":[154],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":158}],"EditorInfo":{"isRoot":false,"xPos":631.334839,"yPos":519.3328},"ID":156,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
+    like them. So I started dressing this way. I hope it looks good...","parentUIDs":[149],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":154}],"EditorInfo":{"isRoot":false,"xPos":2262.00977,"yPos":1694.67175},"ID":153,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    really does! You look great, man!","parentUIDs":[152],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":155}],"EditorInfo":{"isRoot":false,"xPos":2263.34326,"yPos":1874.00623},"ID":154,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    thanks! I''m always a bit insecure about it!","parentUIDs":[153],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":156}],"EditorInfo":{"isRoot":false,"xPos":1985.99451,"yPos":1886.67224},"ID":155,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
+    only the truth.","parentUIDs":[154],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":158}],"EditorInfo":{"isRoot":false,"xPos":1708.00208,"yPos":1884.00671},"ID":156,"ParamActions":[],"TMPFontGUID":null,"Text":"(Andrew
     blushes and looks at you with a flustered and fond look. He really seems to have
-    loved the compliment. He also seems to be interested in you.)","parentUIDs":[155],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":51},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":159}],"EditorInfo":{"isRoot":false,"xPos":271.3321,"yPos":521.9996},"ID":158,"ParamActions":[],"TMPFontGUID":null,"Text":"(I
+    loved the compliment. He also seems to be interested in you.)","parentUIDs":[155],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":51},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":159}],"EditorInfo":{"isRoot":false,"xPos":1436.66589,"yPos":1890.00623},"ID":158,"ParamActions":[],"TMPFontGUID":null,"Text":"(I
     could try and flirt with him.He could give me more info like that. Or maybe I
-    could even score a date! Or I could keep it proffesional and ask more questions.)","parentUIDs":[156],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    could even score a date! Or I could keep it proffesional and ask more questions.)","parentUIDs":[156],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":2024.66223,"yPos":1196.00232},"ID":160,"ParamActions":[],"TMPFontGUID":null,"Text":"(He
+    quietly stares at you wint an angry expression)","parentUIDs":[151],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":162}],"EditorInfo":{"isRoot":false,"xPos":1090.33411,"yPos":5005.331},"ID":161,"ParamActions":[],"TMPFontGUID":null,"Text":"WHAT?!
+    How could you?!","parentUIDs":[76],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":97}],"EditorInfo":{"isRoot":false,"xPos":1099.0011,"yPos":5138.01074},"ID":162,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    fool! You fell for my trap! Ah! Emotional manipulation works every time! Oh yeah!
+    The sentence!","parentUIDs":[161],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":165}],"EditorInfo":{"isRoot":false,"xPos":1480.00012,"yPos":3089.999},"ID":164,"ParamActions":[],"TMPFontGUID":null,"Text":"Sorry,
+    Andrew! I didn''t mean to offend you!","parentUIDs":[163],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":166}],"EditorInfo":{"isRoot":false,"xPos":1490.66687,"yPos":2954.666},"ID":165,"ParamActions":[],"TMPFontGUID":null,"Text":"Ok,
+    I''ll let it slide since you are so cute!","parentUIDs":[164],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":167}],"EditorInfo":{"isRoot":false,"xPos":1500.66663,"yPos":2839.332},"ID":166,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    won''t regret it!","parentUIDs":[165],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Judge","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":52}],"EditorInfo":{"isRoot":false,"xPos":1510.00037,"yPos":2714.66748},"ID":167,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    better not!","parentUIDs":[166],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Andrew","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -3631,6 +3800,14 @@ MonoBehaviour:
   - {fileID: 857196909}
   - {fileID: 857196908}
   - {fileID: 857196917}
+  - {fileID: 857196918}
+  - {fileID: 857196921}
+  - {fileID: 857196920}
+  - {fileID: 857196919}
+  - {fileID: 857196925}
+  - {fileID: 857196924}
+  - {fileID: 857196923}
+  - {fileID: 857196922}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -3810,4 +3987,4 @@ SceneRoots:
   - {fileID: 901808735}
   - {fileID: 878912518}
   - {fileID: 1752781800}
-  - {fileID: 235479937}
+  - {fileID: 385125684}
