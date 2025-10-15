@@ -56,6 +56,8 @@ namespace DialogueEditor
         public UIConversationButton ButtonPrefab;
         // Default values
         public Sprite BlankSprite;
+          // Skip button reference
+        public GameObject SkipButton;
 
         // Getter properties
         public bool IsConversationActive
@@ -99,6 +101,11 @@ namespace DialogueEditor
 
             NpcIcon.sprite = BlankSprite;
             DialogueText.text = "";
+
+             // Hide Skip button at start
+    if (SkipButton != null)
+        SkipButton.SetActive(false);
+
             TurnOffUI();
         }
 
@@ -256,6 +263,38 @@ namespace DialogueEditor
             return value;
         }
 
+ public void FastForwardCurrentLine()
+{
+    if (DialogueText == null) return;
+
+    // If currently scrolling, reveal all text and transition to options
+    if (m_state == eState.ScrollingText)
+    {
+        DialogueText.maxVisibleCharacters = DialogueText.text.Length;
+        m_scrollIndex = m_targetScrollTextCount;
+        SetState(eState.TransitioningOptionsOn); // this creates the Continue/End button
+        return;
+    }
+
+    // If idle and options exist, press the first available button
+    if (m_state == eState.Idle)
+    {
+        if (m_uiOptions.Count > 0)
+        {
+            m_uiOptions[0].OnButtonPressed();
+        }
+        else
+        {
+            // No options? End conversation
+            EndConversation();
+        }
+    }
+}
+
+
+
+
+   
 
         //--------------------------------------
         // Set state
@@ -326,6 +365,11 @@ namespace DialogueEditor
         {
             m_stateTime += Time.deltaTime;
             float t = m_stateTime / TRANSITION_TIME;
+
+              // Make Skip button visible once dialogue is fully shown
+        if (SkipButton != null)
+            SkipButton.SetActive(true);
+
 
             if (t > 1)
             {
@@ -646,6 +690,10 @@ namespace DialogueEditor
         {
             DialoguePanel.gameObject.SetActive(false);
             OptionsPanel.gameObject.SetActive(false);
+            
+             if (SkipButton != null)
+        SkipButton.SetActive(false);
+
             SetState(eState.Off);
 #if UNITY_EDITOR
             // Debug.Log("[ConversationManager]: Conversation UI off.");
