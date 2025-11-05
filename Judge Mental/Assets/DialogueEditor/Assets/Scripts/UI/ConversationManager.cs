@@ -56,7 +56,7 @@ namespace DialogueEditor
         public UIConversationButton ButtonPrefab;
         // Default values
         public Sprite BlankSprite;
-          // Skip button reference
+        // Skip button reference
         public GameObject SkipButton;
 
         // Getter properties
@@ -74,7 +74,7 @@ namespace DialogueEditor
         public int m_targetScrollTextCount;
         private eState m_state;
         private float m_stateTime;
-        
+
         private Conversation m_conversation;
         private SpeechNode m_currentSpeech;
         private OptionNode m_selectedOption;
@@ -102,9 +102,9 @@ namespace DialogueEditor
             NpcIcon.sprite = BlankSprite;
             DialogueText.text = "";
 
-             // Hide Skip button at start
-    if (SkipButton != null)
-        SkipButton.SetActive(false);
+            // Hide Skip button at start
+            if (SkipButton != null)
+                SkipButton.SetActive(false);
 
             TurnOffUI();
         }
@@ -225,7 +225,7 @@ namespace DialogueEditor
                 LogWarning("parameter \'" + paramName + "\' does not exist.");
             }
         }
-        
+
         public void SetBool(string paramName, bool value)
         {
             eParamStatus status;
@@ -263,38 +263,38 @@ namespace DialogueEditor
             return value;
         }
 
- public void FastForwardCurrentLine()
-{
-    if (DialogueText == null) return;
-
-    // If currently scrolling, reveal all text and transition to options
-    if (m_state == eState.ScrollingText)
-    {
-        DialogueText.maxVisibleCharacters = DialogueText.text.Length;
-        m_scrollIndex = m_targetScrollTextCount;
-        SetState(eState.TransitioningOptionsOn); // this creates the Continue/End button
-        return;
-    }
-
-    // If idle and options exist, press the first available button
-    if (m_state == eState.Idle)
-    {
-        if (m_uiOptions.Count > 0)
+        public void FastForwardCurrentLine()
         {
-            m_uiOptions[0].OnButtonPressed();
+            if (DialogueText == null) return;
+
+            // If currently scrolling, reveal all text and transition to options
+            if (m_state == eState.ScrollingText)
+            {
+                DialogueText.maxVisibleCharacters = DialogueText.text.Length;
+                m_scrollIndex = m_targetScrollTextCount;
+                SetState(eState.TransitioningOptionsOn); // this creates the Continue/End button
+                return;
+            }
+
+            // If idle and options exist, press the first available button
+            if (m_state == eState.Idle)
+            {
+                if (m_uiOptions.Count > 0)
+                {
+                    m_uiOptions[0].OnButtonPressed();
+                }
+                else
+                {
+                    // No options? End conversation
+                    EndConversation();
+                }
+            }
         }
-        else
-        {
-            // No options? End conversation
-            EndConversation();
-        }
-    }
-}
 
 
 
 
-   
+
 
         //--------------------------------------
         // Set state
@@ -366,9 +366,9 @@ namespace DialogueEditor
             m_stateTime += Time.deltaTime;
             float t = m_stateTime / TRANSITION_TIME;
 
-              // Make Skip button visible once dialogue is fully shown
-        if (SkipButton != null)
-            SkipButton.SetActive(true);
+            // Make Skip button visible once dialogue is fully shown
+            if (SkipButton != null)
+                SkipButton.SetActive(true);
 
 
             if (t > 1)
@@ -591,7 +591,7 @@ namespace DialogueEditor
             else
             {
                 SetState(eState.TransitioningOptionsOn);
-            }            
+            }
         }
 
 
@@ -690,9 +690,9 @@ namespace DialogueEditor
         {
             DialoguePanel.gameObject.SetActive(false);
             OptionsPanel.gameObject.SetActive(false);
-            
-             if (SkipButton != null)
-        SkipButton.SetActive(false);
+
+            if (SkipButton != null)
+                SkipButton.SetActive(false);
 
             SetState(eState.Off);
 #if UNITY_EDITOR
@@ -738,7 +738,7 @@ namespace DialogueEditor
                         {
                             uiOption.SetupButton(UIConversationButton.eButtonType.Speech, next, continueFont: m_conversation.ContinueFont);
                         }
-                        
+
                     }
                     else if (m_currentSpeech.ConnectionType == Connection.eConnectionType.None)
                     {
@@ -894,6 +894,6 @@ namespace DialogueEditor
 #if UNITY_EDITOR
             Debug.LogWarning("[Dialogue Editor]: " + warning);
 #endif
-        }
+        }
     }
 }
