@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -19,6 +19,9 @@ namespace DialogueEditor
             NONE,
         }
 
+       private Stack<SpeechNode> _speechHistory = new Stack<SpeechNode>();
+
+       private SpeechNode _currentSpeechNode;
         private const float TRANSITION_TIME = 0.2f; // Transition time for fades
 
         public static ConversationManager Instance { get; private set; }
@@ -291,6 +294,26 @@ namespace DialogueEditor
             }
         }
 
+        // --- BACK BUTTON PUBLIC API ---
+public void GoToPreviousSpeech()
+{
+    if (_speechHistory == null || _speechHistory.Count == 0)
+    {
+        Debug.Log("DialogueEditor: No previous speech.");
+        return;
+    }
+
+    StopAllCoroutines();
+
+    var previous = _speechHistory.Pop();
+
+    _currentSpeechNode = previous;
+    m_currentSpeech    = previous;
+
+    SetupSpeech(previous);
+}
+// --- END BACK BUTTON PUBLIC API ---
+
 
 
 
@@ -506,6 +529,13 @@ namespace DialogueEditor
                 EndConversation();
                 return;
             }
+
+            if (_currentSpeechNode != null)
+            {
+                _speechHistory.Push(_currentSpeechNode);
+            }
+
+            _currentSpeechNode = speech;
 
             m_currentSpeech = speech;
 
